@@ -14,7 +14,7 @@ jobs:
       - name: Login to Docker hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
       - name: Build Docker Image
-        run: docker build -t gauravraibhatt/reactjs_frontend_stopwatch --build-args APP_ENVIRONMENT_TYPE='production' --build-args API_SERVER_BASE_URL='${{secrets.API_SERVER_BASE_URL}}' .
+        run: docker build -t gauravraibhatt/reactjs_frontend_stopwatch --build-arg APP_ENVIRONMENT_TYPE='production' --build-arg API_SERVER_BASE_URL='${{secrets.API_SERVER_BASE_URL}}' .
       - name: Publish Image to Docker hub
         run: docker push gauravraibhatt/reactjs_frontend_stopwatch:latest
   
