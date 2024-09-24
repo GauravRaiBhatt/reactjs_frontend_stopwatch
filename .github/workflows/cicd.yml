@@ -27,5 +27,5 @@ jobs:
       - name: Pull Image from docker hub
         run: docker pull gauravraibhatt/reactjs_frontend_stopwatch:latest
       - name: Run docker container
-        run: docker run -d -p 80:80 --name reactjs-container gauravraibhatt/reactjs_frontend_stopwatch
+        run: docker run -d -p 443:80 --name reactjs-container gauravraibhatt/reactjs_frontend_stopwatch
         # -p aws:docker(nginx)
