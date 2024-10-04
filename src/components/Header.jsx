@@ -11,7 +11,7 @@ const Header = () => {
     <header className="flex justify-between items-center p-4 bg-slate-400 text-white w-full border-solid border-2 border-b-black ">
       {/* Left side: Logo and Title */}
     {/* <img src="/src/assets/logo1.jpeg" alt="Logo" className="h-8 mr-2" /> */}
-    <img src="/src/assets/logo2.webp" alt="Logo" className="h-8 mr-2 myBorderClass" />
+    <img src="./assets/logo2.webp" alt="Logo" className="h-8 mr-2 myBorderClass" />
       {/* <div className="flex items-center">
         <img src="/src/assets/react.svg" alt="Logo" className="h-8 mr-2" />
         <h1 className="text-xl font-bold text-black sm:hidden">The GRB's</h1>
@@ -25,7 +25,7 @@ const Header = () => {
           <button className="text-white hover:text-green-500">
             {/* <FontAwesomeIcon icon={faWhatsapp} size="lg" /> */}
             <img
-              src="/src/assets/whatsapp-brands-solid.svg"
+              src="./assets/whatsapp-brands-solid.svg"
               alt="Logo"
               className="h-8 mr-2"
             />
