@@ -8,7 +8,7 @@ const Header = () => {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
   return (
-    <header className="flex justify-between items-center p-4 bg-slate-400 text-white w-full border-solid border-2 border-b-black ">
+    <header className="flex justify-between items-center py-1 px-4 bg-slate-400 text-white w-full border-solid border-2 border-b-black fixed">
       {/* Left side: Logo and Title */}
     {/* <img src="/src/assets/logo1.jpeg" alt="Logo" className="h-8 mr-2" /> */}
     <img src="./assets/logo2.webp" alt="Logo" className="h-8 mr-2 myBorderClass" />
